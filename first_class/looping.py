@@ -1,17 +1,17 @@
-print('start running code here') # Beware of creating infinite loops!
-num = 0
-while num < 5:
-    print(num)
-    # num += 1
+# print('start running code here') # Beware of creating infinite loops!
+# num = 0
+# while num < 5:
+#     print(num)
+#     num += 1
 
 # print('Normal code continues') 
 
 # Guessing game
-magic_num = 4 
+magic_num = 10 
 
-# number = int(input('guess magic number: '))
+# number = int(input('guess my jackpot number: '))
 # while number != magic_num:
-#     number = int(input('failed 🤣 try again: '))
+#     number = int(input('failed try again: 🤣'))
 
 # print('hurray you got it 🙌')
 
@@ -23,24 +23,22 @@ i = 0
 #         break
 #     i += 1
 
-# Continue statement: To 
+# Continue statement: To skip a particular value and continue the iteration  
 # while i < 6:
-#     i += 1
 #     if i == 3:
 #         continue 
+#     i += 1
 #     print(i)
 
 # Exercise 
-# applicants = []
-# name = input('what is your name? ')
+applicants = []
 
 # while len(applicants) < 7:
+#     name = input('what is your name? ')
 #     applicants.append(name)
-#     applicants += 1
 #     if len(applicants) == 6:
 #         break
-
-# print(applicants)
+#     print(applicants)  
 
 # Correction
 # applicants_list = []
@@ -52,7 +50,7 @@ i = 0
 # print('Sorry! Application closed')
 
 # For loops
-# num_list = [9,8,3,5,7,4,0,7,2,1]
+num_list = [9,8,3,5,7,4,0,7,2,1]
 # for n in num_list:
 #     print(n)
 
@@ -61,20 +59,26 @@ i = 0
 #     print(m)
 
 # for x in range(10):
-#     print(x * 2)
+#     print(x * 1)
 
 # fruits = ['apple', 'orange', 'banana']
 # for f in fruits:
 #     print(f.upper())
+# notice that dot(.) notation is used with string methods!
 
-# number_list = [4,7,8,9,4,6,3,6,3,6,2]
-# even_list = []
-# for num in number_list:
-#     if num % 2 == 0:
-#         even_list.append(num)
-# print(even_list)
+number_list = [4,7,8,9,4,6,3,6,3,6,2]
+even_list = []
+for num in number_list:
+    if num % 2 == 0:
+        even_list.append(num)
+print(even_list)
 
-# numb = set(even_list)
-# print(numb)
-# print(list(numb))
+odd_list = []
+for num in number_list:
+    if num % 2 != 0:
+        odd_list.append(num)
+print(odd_list)
 
+numb = set(even_list)
+print(numb)
+print(list(numb))

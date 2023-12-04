@@ -44,5 +44,5 @@ elif age >= 18 and age < 21:
     frontend.append(name)
     print(frontend)
 else:
-    print(f'oops sorry {name} you are not eligible for any course at univelcity; go back to programming bootcamp for dummies 😂💔')
+    print(f'oops sorry {name} you are not eligible for any course at univelcity; go back to programming bootcamp for children 😂💔')
     print(age)
