@@ -1,6 +1,6 @@
-# print('start running code here') # Beware of creating infinite loops!
+print('start running code here') # Beware of creating infinite loops!
 # num = 0
-# while num < 5:
+# while num <= 5:
 #     print(num)
 #     num += 1
 
@@ -11,7 +11,7 @@ magic_num = 10
 
 # number = int(input('guess my jackpot number: '))
 # while number != magic_num:
-#     number = int(input('failed try again: 🤣'))
+#     number = int(input('failed try again 🤣🤣: '))
 
 # print('hurray you got it 🙌')
 
@@ -26,7 +26,7 @@ i = 0
 # Continue statement: To skip a particular value and continue the iteration  
 # while i < 6:
 #     if i == 3:
-#         continue 
+#         continue  # checkout why the iteration does not continue after 
 #     i += 1
 #     print(i)
 

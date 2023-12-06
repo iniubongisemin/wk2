@@ -4,18 +4,18 @@ a = 18
 # a = 31
 # b = 21
 b = 20
-# if a > b: # returns true
-#     num = a - b
-#     print(num)
-#     print('a is greater than b')
-# elif a == b:
-#     num = a * b
-#     print(num)
-#     print('a and b are equal')
-# else: # returns false
-#     num = a + b 
-#     print(num)
-#     print('a is less b')
+if a > b: # returns true
+    num = a - b
+    print(num)
+    print('a is greater than b')
+elif a == b:
+    num = a * b
+    print(num)
+    print('a and b are equal')
+else: # returns false
+    num = a + b 
+    print(num)
+    print('a is less b')
 
 # Class Work
 backend = []
