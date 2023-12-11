@@ -1,3 +1,4 @@
+# week2 assignment
 #1 given a dataset of string and integer write logic to separate the dataset and only return a list of the integer values using the built in functions in python.
 dataset = ['python', 20, 'java', 30, 41, 29, 'c#', 'maths']
 
@@ -25,7 +26,8 @@ print(list_dict)
 
 for x in list_dict:
     if x == 200:
-        print(True)
+        print('True 200 exists in simple_dict')
+        print(simple_dict["b"])
 
 # dict_list = list(simple_dict)
 # print(dict_list)
