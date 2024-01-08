@@ -1,10 +1,10 @@
 from functools import reduce
 # map, filter and reduce function
-# they're paradigms of functional programming that allow devs to 
+# they're paradigms of functional programming that allow devs to itereate through an iterable and carry out an operation on each item in the iterable
 # map function
-# name_list = ['henry', 'james', 'john', 'sandra', 'francis']
-# upper_name = map(str.upper, name_list)
-# print(list(upper_name))
+name_list = ['henry', 'james', 'john', 'sandra', 'francis']
+upper_name = map(str.upper, name_list)
+print(list(upper_name))
 
 numbers = [2, 4, 6, 7, 8, 23, 43, 63, 32, 90]
 
