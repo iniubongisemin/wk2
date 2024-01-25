@@ -95,11 +95,6 @@ myiter = iter(myclas)
 for x in myiter:
     print(x)
 
-
-
-
-
-
 # making an object iterable
 
 class SquareTwo:
